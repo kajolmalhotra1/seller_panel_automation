@@ -1,0 +1,160 @@
+ERROR - 2022-10-28 11:31:12,414 - GmailReader - error | (psycopg2.OperationalError) connection to server at "database-2.ccknekyc13f2.ap-south-1.rds.amazonaws.com" (10.120.21.231), port 5432 failed: Connection timed out (0x0000274C/10060)
+	Is the server running on that host and accepting TCP/IP connections?
+
+(Background on this error at: https://sqlalche.me/e/14/e3q8) <class 'sqlalchemy.exc.OperationalError'> database.py, Line 28
+ERROR - 2022-10-28 11:31:55,542 - GmailReader - error | (psycopg2.OperationalError) connection to server at "database-2.ccknekyc13f2.ap-south-1.rds.amazonaws.com" (10.120.21.231), port 5432 failed: Connection timed out (0x0000274C/10060)
+	Is the server running on that host and accepting TCP/IP connections?
+
+(Background on this error at: https://sqlalche.me/e/14/e3q8) <class 'sqlalchemy.exc.OperationalError'> database.py, Line 28
+ERROR - 2022-10-28 11:32:30,985 - GmailReader - error | (psycopg2.OperationalError) connection to server at "database-2.ccknekyc13f2.ap-south-1.rds.amazonaws.com" (10.120.21.231), port 5432 failed: Connection timed out (0x0000274C/10060)
+	Is the server running on that host and accepting TCP/IP connections?
+
+(Background on this error at: https://sqlalche.me/e/14/e3q8) <class 'sqlalchemy.exc.OperationalError'> database.py, Line 28
+ERROR - 2022-10-28 11:33:32,949 - GmailReader - error | (psycopg2.OperationalError) connection to server at "database-2.ccknekyc13f2.ap-south-1.rds.amazonaws.com" (10.120.21.231), port 5432 failed: Connection timed out (0x0000274C/10060)
+	Is the server running on that host and accepting TCP/IP connections?
+
+(Background on this error at: https://sqlalche.me/e/14/e3q8) <class 'sqlalchemy.exc.OperationalError'> database.py, Line 28
+ERROR - 2022-10-28 11:33:41,263 - GmailReader - error | (psycopg2.OperationalError) connection to server at "database-2.ccknekyc13f2.ap-south-1.rds.amazonaws.com" (10.120.21.231), port 5432 failed: Connection timed out (0x0000274C/10060)
+	Is the server running on that host and accepting TCP/IP connections?
+
+(Background on this error at: https://sqlalche.me/e/14/e3q8) <class 'sqlalchemy.exc.OperationalError'> database.py, Line 28
+ERROR - 2022-10-28 11:40:30,616 - GmailReader - error | (psycopg2.OperationalError) connection to server at "database-2.ccknekyc13f2.ap-south-1.rds.amazonaws.com" (10.120.21.231), port 5432 failed: Connection timed out (0x0000274C/10060)
+	Is the server running on that host and accepting TCP/IP connections?
+
+(Background on this error at: https://sqlalche.me/e/14/e3q8) <class 'sqlalchemy.exc.OperationalError'> database.py, Line 28
+ERROR - 2022-10-28 11:50:32,795 - GmailReader - error | fees_type <class 'AttributeError'> crud.py, Line 37
+ERROR - 2022-10-28 11:50:33,563 - GmailReader - error | fees_type <class 'AttributeError'> crud.py, Line 37
+ERROR - 2022-10-28 11:50:33,563 - GmailReader - error | fees_type <class 'AttributeError'> crud.py, Line 37
+ERROR - 2022-10-28 11:50:33,892 - GmailReader - error | fees_type <class 'AttributeError'> crud.py, Line 37
+ERROR - 2022-10-28 11:50:33,892 - GmailReader - error | fees_type <class 'AttributeError'> crud.py, Line 37
+ERROR - 2022-10-28 11:50:33,892 - GmailReader - error | fees_type <class 'AttributeError'> crud.py, Line 37
+ERROR - 2022-10-28 11:50:34,235 - GmailReader - error | fees_type <class 'AttributeError'> crud.py, Line 37
+ERROR - 2022-10-28 11:50:34,235 - GmailReader - error | fees_type <class 'AttributeError'> crud.py, Line 37
+ERROR - 2022-10-28 11:50:34,235 - GmailReader - error | fees_type <class 'AttributeError'> crud.py, Line 37
+ERROR - 2022-10-28 11:50:34,235 - GmailReader - error | fees_type <class 'AttributeError'> crud.py, Line 37
+ERROR - 2022-10-28 11:50:34,549 - GmailReader - error | fees_type <class 'AttributeError'> crud.py, Line 37
+ERROR - 2022-10-28 11:50:34,549 - GmailReader - error | fees_type <class 'AttributeError'> crud.py, Line 37
+ERROR - 2022-10-28 11:50:34,549 - GmailReader - error | fees_type <class 'AttributeError'> crud.py, Line 37
+ERROR - 2022-10-28 11:50:34,549 - GmailReader - error | fees_type <class 'AttributeError'> crud.py, Line 37
+ERROR - 2022-10-28 11:50:34,549 - GmailReader - error | fees_type <class 'AttributeError'> crud.py, Line 37
+ERROR - 2022-10-28 11:50:34,865 - GmailReader - error | fees_type <class 'AttributeError'> crud.py, Line 37
+ERROR - 2022-10-28 11:50:34,865 - GmailReader - error | fees_type <class 'AttributeError'> crud.py, Line 37
+ERROR - 2022-10-28 11:50:34,865 - GmailReader - error | fees_type <class 'AttributeError'> crud.py, Line 37
+ERROR - 2022-10-28 11:50:34,865 - GmailReader - error | fees_type <class 'AttributeError'> crud.py, Line 37
+ERROR - 2022-10-28 11:50:34,865 - GmailReader - error | fees_type <class 'AttributeError'> crud.py, Line 37
+ERROR - 2022-10-28 11:50:34,865 - GmailReader - error | fees_type <class 'AttributeError'> crud.py, Line 37
+ERROR - 2022-10-28 11:50:35,179 - GmailReader - error | fees_type <class 'AttributeError'> crud.py, Line 37
+ERROR - 2022-10-28 11:50:35,179 - GmailReader - error | fees_type <class 'AttributeError'> crud.py, Line 37
+ERROR - 2022-10-28 11:50:35,179 - GmailReader - error | fees_type <class 'AttributeError'> crud.py, Line 37
+ERROR - 2022-10-28 11:50:35,179 - GmailReader - error | fees_type <class 'AttributeError'> crud.py, Line 37
+ERROR - 2022-10-28 11:50:35,179 - GmailReader - error | fees_type <class 'AttributeError'> crud.py, Line 37
+ERROR - 2022-10-28 11:50:35,179 - GmailReader - error | fees_type <class 'AttributeError'> crud.py, Line 37
+ERROR - 2022-10-28 11:50:35,179 - GmailReader - error | fees_type <class 'AttributeError'> crud.py, Line 37
+ERROR - 2022-10-28 11:50:35,526 - GmailReader - error | fees_type <class 'AttributeError'> crud.py, Line 37
+ERROR - 2022-10-28 11:50:35,526 - GmailReader - error | fees_type <class 'AttributeError'> crud.py, Line 37
+ERROR - 2022-10-28 11:50:35,526 - GmailReader - error | fees_type <class 'AttributeError'> crud.py, Line 37
+ERROR - 2022-10-28 11:50:35,526 - GmailReader - error | fees_type <class 'AttributeError'> crud.py, Line 37
+ERROR - 2022-10-28 11:50:35,526 - GmailReader - error | fees_type <class 'AttributeError'> crud.py, Line 37
+ERROR - 2022-10-28 11:50:35,526 - GmailReader - error | fees_type <class 'AttributeError'> crud.py, Line 37
+ERROR - 2022-10-28 11:50:35,526 - GmailReader - error | fees_type <class 'AttributeError'> crud.py, Line 37
+ERROR - 2022-10-28 11:50:35,526 - GmailReader - error | fees_type <class 'AttributeError'> crud.py, Line 37
+ERROR - 2022-10-28 11:50:35,876 - GmailReader - error | fees_type <class 'AttributeError'> crud.py, Line 37
+ERROR - 2022-10-28 11:50:35,876 - GmailReader - error | fees_type <class 'AttributeError'> crud.py, Line 37
+ERROR - 2022-10-28 11:50:35,876 - GmailReader - error | fees_type <class 'AttributeError'> crud.py, Line 37
+ERROR - 2022-10-28 11:50:35,876 - GmailReader - error | fees_type <class 'AttributeError'> crud.py, Line 37
+ERROR - 2022-10-28 11:50:35,876 - GmailReader - error | fees_type <class 'AttributeError'> crud.py, Line 37
+ERROR - 2022-10-28 11:50:35,876 - GmailReader - error | fees_type <class 'AttributeError'> crud.py, Line 37
+ERROR - 2022-10-28 11:50:35,876 - GmailReader - error | fees_type <class 'AttributeError'> crud.py, Line 37
+ERROR - 2022-10-28 11:50:35,876 - GmailReader - error | fees_type <class 'AttributeError'> crud.py, Line 37
+ERROR - 2022-10-28 11:50:35,876 - GmailReader - error | fees_type <class 'AttributeError'> crud.py, Line 37
+ERROR - 2022-10-28 11:50:36,175 - GmailReader - error | fees_type <class 'AttributeError'> crud.py, Line 37
+ERROR - 2022-10-28 11:50:36,175 - GmailReader - error | fees_type <class 'AttributeError'> crud.py, Line 37
+ERROR - 2022-10-28 11:50:36,175 - GmailReader - error | fees_type <class 'AttributeError'> crud.py, Line 37
+ERROR - 2022-10-28 11:50:36,175 - GmailReader - error | fees_type <class 'AttributeError'> crud.py, Line 37
+ERROR - 2022-10-28 11:50:36,175 - GmailReader - error | fees_type <class 'AttributeError'> crud.py, Line 37
+ERROR - 2022-10-28 11:50:36,175 - GmailReader - error | fees_type <class 'AttributeError'> crud.py, Line 37
+ERROR - 2022-10-28 11:50:36,175 - GmailReader - error | fees_type <class 'AttributeError'> crud.py, Line 37
+ERROR - 2022-10-28 11:50:36,175 - GmailReader - error | fees_type <class 'AttributeError'> crud.py, Line 37
+ERROR - 2022-10-28 11:50:36,175 - GmailReader - error | fees_type <class 'AttributeError'> crud.py, Line 37
+ERROR - 2022-10-28 11:50:36,175 - GmailReader - error | fees_type <class 'AttributeError'> crud.py, Line 37
+ERROR - 2022-10-28 11:50:41,841 - GmailReader - error | type object 'GenerateRules' has no attribute 'rules_attributes' <class 'AttributeError'> crud.py, Line 13
+ERROR - 2022-10-28 11:50:41,841 - GmailReader - error | type object 'GenerateRules' has no attribute 'rules_attributes' <class 'AttributeError'> crud.py, Line 13
+ERROR - 2022-10-28 11:50:41,841 - GmailReader - error | type object 'GenerateRules' has no attribute 'rules_attributes' <class 'AttributeError'> crud.py, Line 13
+ERROR - 2022-10-28 11:50:41,841 - GmailReader - error | type object 'GenerateRules' has no attribute 'rules_attributes' <class 'AttributeError'> crud.py, Line 13
+ERROR - 2022-10-28 11:50:41,841 - GmailReader - error | type object 'GenerateRules' has no attribute 'rules_attributes' <class 'AttributeError'> crud.py, Line 13
+ERROR - 2022-10-28 11:50:41,841 - GmailReader - error | type object 'GenerateRules' has no attribute 'rules_attributes' <class 'AttributeError'> crud.py, Line 13
+ERROR - 2022-10-28 11:50:41,841 - GmailReader - error | type object 'GenerateRules' has no attribute 'rules_attributes' <class 'AttributeError'> crud.py, Line 13
+ERROR - 2022-10-28 11:50:41,841 - GmailReader - error | type object 'GenerateRules' has no attribute 'rules_attributes' <class 'AttributeError'> crud.py, Line 13
+ERROR - 2022-10-28 11:50:41,841 - GmailReader - error | type object 'GenerateRules' has no attribute 'rules_attributes' <class 'AttributeError'> crud.py, Line 13
+ERROR - 2022-10-28 11:50:41,841 - GmailReader - error | type object 'GenerateRules' has no attribute 'rules_attributes' <class 'AttributeError'> crud.py, Line 13
+ERROR - 2022-10-28 11:50:41,841 - GmailReader - error | type object 'GenerateRules' has no attribute 'rules_attributes' <class 'AttributeError'> crud.py, Line 13
+ERROR - 2022-10-28 12:20:41,528 - GmailReader - error | type object 'GenerateRules' has no attribute 'rules_attributes' <class 'AttributeError'> crud.py, Line 13
+ERROR - 2022-10-28 12:20:41,528 - GmailReader - error | type object 'GenerateRules' has no attribute 'rules_attributes' <class 'AttributeError'> crud.py, Line 13
+ERROR - 2022-10-28 12:20:41,528 - GmailReader - error | type object 'GenerateRules' has no attribute 'rules_attributes' <class 'AttributeError'> crud.py, Line 13
+ERROR - 2022-10-28 12:20:41,528 - GmailReader - error | type object 'GenerateRules' has no attribute 'rules_attributes' <class 'AttributeError'> crud.py, Line 13
+ERROR - 2022-10-28 12:20:41,528 - GmailReader - error | type object 'GenerateRules' has no attribute 'rules_attributes' <class 'AttributeError'> crud.py, Line 13
+ERROR - 2022-10-28 12:20:41,528 - GmailReader - error | type object 'GenerateRules' has no attribute 'rules_attributes' <class 'AttributeError'> crud.py, Line 13
+ERROR - 2022-10-28 12:20:41,528 - GmailReader - error | type object 'GenerateRules' has no attribute 'rules_attributes' <class 'AttributeError'> crud.py, Line 13
+ERROR - 2022-10-28 12:20:41,528 - GmailReader - error | type object 'GenerateRules' has no attribute 'rules_attributes' <class 'AttributeError'> crud.py, Line 13
+ERROR - 2022-10-28 12:20:41,528 - GmailReader - error | type object 'GenerateRules' has no attribute 'rules_attributes' <class 'AttributeError'> crud.py, Line 13
+ERROR - 2022-10-28 12:20:41,528 - GmailReader - error | type object 'GenerateRules' has no attribute 'rules_attributes' <class 'AttributeError'> crud.py, Line 13
+ERROR - 2022-10-28 12:20:41,528 - GmailReader - error | type object 'GenerateRules' has no attribute 'rules_attributes' <class 'AttributeError'> crud.py, Line 13
+ERROR - 2022-10-28 12:20:41,528 - GmailReader - error | type object 'GenerateRules' has no attribute 'rules_attributes' <class 'AttributeError'> crud.py, Line 13
+ERROR - 2022-10-28 12:20:45,750 - GmailReader - error | type object 'GenerateRules' has no attribute 'rules_attributes' <class 'AttributeError'> crud.py, Line 13
+ERROR - 2022-10-28 12:20:45,750 - GmailReader - error | type object 'GenerateRules' has no attribute 'rules_attributes' <class 'AttributeError'> crud.py, Line 13
+ERROR - 2022-10-28 12:20:45,750 - GmailReader - error | type object 'GenerateRules' has no attribute 'rules_attributes' <class 'AttributeError'> crud.py, Line 13
+ERROR - 2022-10-28 12:20:45,750 - GmailReader - error | type object 'GenerateRules' has no attribute 'rules_attributes' <class 'AttributeError'> crud.py, Line 13
+ERROR - 2022-10-28 12:20:45,750 - GmailReader - error | type object 'GenerateRules' has no attribute 'rules_attributes' <class 'AttributeError'> crud.py, Line 13
+ERROR - 2022-10-28 12:20:45,750 - GmailReader - error | type object 'GenerateRules' has no attribute 'rules_attributes' <class 'AttributeError'> crud.py, Line 13
+ERROR - 2022-10-28 12:20:45,750 - GmailReader - error | type object 'GenerateRules' has no attribute 'rules_attributes' <class 'AttributeError'> crud.py, Line 13
+ERROR - 2022-10-28 12:20:45,750 - GmailReader - error | type object 'GenerateRules' has no attribute 'rules_attributes' <class 'AttributeError'> crud.py, Line 13
+ERROR - 2022-10-28 12:20:45,750 - GmailReader - error | type object 'GenerateRules' has no attribute 'rules_attributes' <class 'AttributeError'> crud.py, Line 13
+ERROR - 2022-10-28 12:20:45,750 - GmailReader - error | type object 'GenerateRules' has no attribute 'rules_attributes' <class 'AttributeError'> crud.py, Line 13
+ERROR - 2022-10-28 12:20:45,750 - GmailReader - error | type object 'GenerateRules' has no attribute 'rules_attributes' <class 'AttributeError'> crud.py, Line 13
+ERROR - 2022-10-28 12:20:45,750 - GmailReader - error | type object 'GenerateRules' has no attribute 'rules_attributes' <class 'AttributeError'> crud.py, Line 13
+ERROR - 2022-10-28 12:20:45,750 - GmailReader - error | type object 'GenerateRules' has no attribute 'rules_attributes' <class 'AttributeError'> crud.py, Line 13
+ERROR - 2022-10-28 12:20:46,084 - GmailReader - error | type object 'GenerateRules' has no attribute 'rules_attributes' <class 'AttributeError'> crud.py, Line 13
+ERROR - 2022-10-28 12:20:46,084 - GmailReader - error | type object 'GenerateRules' has no attribute 'rules_attributes' <class 'AttributeError'> crud.py, Line 13
+ERROR - 2022-10-28 12:20:46,084 - GmailReader - error | type object 'GenerateRules' has no attribute 'rules_attributes' <class 'AttributeError'> crud.py, Line 13
+ERROR - 2022-10-28 12:20:46,084 - GmailReader - error | type object 'GenerateRules' has no attribute 'rules_attributes' <class 'AttributeError'> crud.py, Line 13
+ERROR - 2022-10-28 12:20:46,084 - GmailReader - error | type object 'GenerateRules' has no attribute 'rules_attributes' <class 'AttributeError'> crud.py, Line 13
+ERROR - 2022-10-28 12:20:46,084 - GmailReader - error | type object 'GenerateRules' has no attribute 'rules_attributes' <class 'AttributeError'> crud.py, Line 13
+ERROR - 2022-10-28 12:20:46,084 - GmailReader - error | type object 'GenerateRules' has no attribute 'rules_attributes' <class 'AttributeError'> crud.py, Line 13
+ERROR - 2022-10-28 12:20:46,084 - GmailReader - error | type object 'GenerateRules' has no attribute 'rules_attributes' <class 'AttributeError'> crud.py, Line 13
+ERROR - 2022-10-28 12:20:46,084 - GmailReader - error | type object 'GenerateRules' has no attribute 'rules_attributes' <class 'AttributeError'> crud.py, Line 13
+ERROR - 2022-10-28 12:20:46,084 - GmailReader - error | type object 'GenerateRules' has no attribute 'rules_attributes' <class 'AttributeError'> crud.py, Line 13
+ERROR - 2022-10-28 12:20:46,084 - GmailReader - error | type object 'GenerateRules' has no attribute 'rules_attributes' <class 'AttributeError'> crud.py, Line 13
+ERROR - 2022-10-28 12:20:46,084 - GmailReader - error | type object 'GenerateRules' has no attribute 'rules_attributes' <class 'AttributeError'> crud.py, Line 13
+ERROR - 2022-10-28 12:20:46,084 - GmailReader - error | type object 'GenerateRules' has no attribute 'rules_attributes' <class 'AttributeError'> crud.py, Line 13
+ERROR - 2022-10-28 12:20:46,084 - GmailReader - error | type object 'GenerateRules' has no attribute 'rules_attributes' <class 'AttributeError'> crud.py, Line 13
+ERROR - 2022-10-28 12:20:46,414 - GmailReader - error | type object 'GenerateRules' has no attribute 'rules_attributes' <class 'AttributeError'> crud.py, Line 13
+ERROR - 2022-10-28 12:20:46,414 - GmailReader - error | type object 'GenerateRules' has no attribute 'rules_attributes' <class 'AttributeError'> crud.py, Line 13
+ERROR - 2022-10-28 12:20:46,414 - GmailReader - error | type object 'GenerateRules' has no attribute 'rules_attributes' <class 'AttributeError'> crud.py, Line 13
+ERROR - 2022-10-28 12:20:46,414 - GmailReader - error | type object 'GenerateRules' has no attribute 'rules_attributes' <class 'AttributeError'> crud.py, Line 13
+ERROR - 2022-10-28 12:20:46,414 - GmailReader - error | type object 'GenerateRules' has no attribute 'rules_attributes' <class 'AttributeError'> crud.py, Line 13
+ERROR - 2022-10-28 12:20:46,414 - GmailReader - error | type object 'GenerateRules' has no attribute 'rules_attributes' <class 'AttributeError'> crud.py, Line 13
+ERROR - 2022-10-28 12:20:46,414 - GmailReader - error | type object 'GenerateRules' has no attribute 'rules_attributes' <class 'AttributeError'> crud.py, Line 13
+ERROR - 2022-10-28 12:20:46,414 - GmailReader - error | type object 'GenerateRules' has no attribute 'rules_attributes' <class 'AttributeError'> crud.py, Line 13
+ERROR - 2022-10-28 12:20:46,414 - GmailReader - error | type object 'GenerateRules' has no attribute 'rules_attributes' <class 'AttributeError'> crud.py, Line 13
+ERROR - 2022-10-28 12:20:46,414 - GmailReader - error | type object 'GenerateRules' has no attribute 'rules_attributes' <class 'AttributeError'> crud.py, Line 13
+ERROR - 2022-10-28 12:20:46,414 - GmailReader - error | type object 'GenerateRules' has no attribute 'rules_attributes' <class 'AttributeError'> crud.py, Line 13
+ERROR - 2022-10-28 12:20:46,414 - GmailReader - error | type object 'GenerateRules' has no attribute 'rules_attributes' <class 'AttributeError'> crud.py, Line 13
+ERROR - 2022-10-28 12:20:46,414 - GmailReader - error | type object 'GenerateRules' has no attribute 'rules_attributes' <class 'AttributeError'> crud.py, Line 13
+ERROR - 2022-10-28 12:20:46,414 - GmailReader - error | type object 'GenerateRules' has no attribute 'rules_attributes' <class 'AttributeError'> crud.py, Line 13
+ERROR - 2022-10-28 12:20:46,414 - GmailReader - error | type object 'GenerateRules' has no attribute 'rules_attributes' <class 'AttributeError'> crud.py, Line 13
+ERROR - 2022-10-28 12:20:46,782 - GmailReader - error | type object 'GenerateRules' has no attribute 'rules_attributes' <class 'AttributeError'> crud.py, Line 13
+ERROR - 2022-10-28 12:20:46,782 - GmailReader - error | type object 'GenerateRules' has no attribute 'rules_attributes' <class 'AttributeError'> crud.py, Line 13
+ERROR - 2022-10-28 12:20:46,782 - GmailReader - error | type object 'GenerateRules' has no attribute 'rules_attributes' <class 'AttributeError'> crud.py, Line 13
+ERROR - 2022-10-28 12:20:46,782 - GmailReader - error | type object 'GenerateRules' has no attribute 'rules_attributes' <class 'AttributeError'> crud.py, Line 13
+ERROR - 2022-10-28 12:20:46,782 - GmailReader - error | type object 'GenerateRules' has no attribute 'rules_attributes' <class 'AttributeError'> crud.py, Line 13
+ERROR - 2022-10-28 12:20:46,782 - GmailReader - error | type object 'GenerateRules' has no attribute 'rules_attributes' <class 'AttributeError'> crud.py, Line 13
+ERROR - 2022-10-28 12:20:46,782 - GmailReader - error | type object 'GenerateRules' has no attribute 'rules_attributes' <class 'AttributeError'> crud.py, Line 13
+ERROR - 2022-10-28 12:20:46,782 - GmailReader - error | type object 'GenerateRules' has no attribute 'rules_attributes' <class 'AttributeError'> crud.py, Line 13
+ERROR - 2022-10-28 12:20:46,782 - GmailReader - error | type object 'GenerateRules' has no attribute 'rules_attributes' <class 'AttributeError'> crud.py, Line 13
+ERROR - 2022-10-28 12:20:46,782 - GmailReader - error | type object 'GenerateRules' has no attribute 'rules_attributes' <class 'AttributeError'> crud.py, Line 13
+ERROR - 2022-10-28 12:20:46,782 - GmailReader - error | type object 'GenerateRules' has no attribute 'rules_attributes' <class 'AttributeError'> crud.py, Line 13
+ERROR - 2022-10-28 12:20:46,782 - GmailReader - error | type object 'GenerateRules' has no attribute 'rules_attributes' <class 'AttributeError'> crud.py, Line 13
+ERROR - 2022-10-28 12:20:46,782 - GmailReader - error | type object 'GenerateRules' has no attribute 'rules_attributes' <class 'AttributeError'> crud.py, Line 13
+ERROR - 2022-10-28 12:20:46,782 - GmailReader - error | type object 'GenerateRules' has no attribute 'rules_attributes' <class 'AttributeError'> crud.py, Line 13
+ERROR - 2022-10-28 12:20:46,782 - GmailReader - error | type object 'GenerateRules' has no attribute 'rules_attributes' <class 'AttributeError'> crud.py, Line 13
+ERROR - 2022-10-28 12:20:46,782 - GmailReader - error | type object 'GenerateRules' has no attribute 'rules_attributes' <class 'AttributeError'> crud.py, Line 13
