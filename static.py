@@ -22,5 +22,6 @@ class ResponseMessage():
     not_found = "Not Found"
     duplicate_request = "Duplicate request"
     error = "Internal server error"
-    slab_list_created = "slab_list Created Successfully"
-    slab_list_deleted = "slab_list Deleted Successfully"
+    fees_created = "Fees Created Successfully"
+    fees_deleted="Fees Deleted Successfully"
+    promotion_created="Promotions Created Successfully"

@@ -1,0 +1,50 @@
+syntax = "proto3";
+package main;
+import "google/protobuf/empty.proto";
+
+message GenerateRules{
+  int32 id = 1;
+  string fees_type = 2;
+  string fees_name = 3;
+  string rules_attributes =4;
+  string applicable_date = 5;
+  string created_by=6;
+}
+
+message GenerateRulesRequest{
+  string tenant_id=1;
+}
+
+message GenerateRulesResponse{
+  int32 status_code = 1;
+  string status = 2;
+  string message = 3;
+  repeated GenerateRules data=4;
+}
+
+message GenerateRulesCreated{
+  string fees_type = 1;
+  string fees_name = 2;
+  string rules_attributes =3;
+  string applicable_date = 4;
+  string created_by=5;
+  string tenant_id =6;
+}
+
+message GenerateRulesDeleted{
+  string tenant_id =1;
+  int32 id=2;
+}
+message StatusResponse{
+  int32 status_code = 1;
+  string status = 2;
+  string message = 3;
+}
+
+service seller_panel{
+  rpc GetGenerateRules(GenerateRulesRequest) returns (GenerateRulesResponse){}
+  rpc CreateGenerateRules(GenerateRulesRequest) returns (StatusResponse){}
+  rpc DeletedGenerateRules(GenerateRulesDeleted) returns (StatusResponse){}
+}
+
+

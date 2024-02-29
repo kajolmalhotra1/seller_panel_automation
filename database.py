@@ -1,13 +1,11 @@
 import os
-import sys
 import urllib.parse
-import logging
-from dotenv import load_dotenv
-from logs import Logger
 from sqlalchemy import create_engine
 from sqlalchemy.orm import sessionmaker
-
 import model
+import sys
+from logger.logs import Logger
+from dotenv import load_dotenv
 
 load_dotenv()
 
@@ -28,11 +26,11 @@ try:
     SessionLocal = sessionmaker(autocommit=False, autoflush=False, bind=engine)
 
     model.Base.metadata.create_all(bind=engine)
+
 except Exception as e:
     exception_message = str(e)
     exception_type, exception_object, exception_traceback = sys.exc_info()
     filename = os.path.split(exception_traceback.tb_frame.f_code.co_filename)[1]
-    logging("Seller_Panel_Payout_database").error(
-       f"{exception_message} {exception_type} {filename}, Line {exception_traceback.tb_lineno}")
+    Logger("seller_panel_GR_database").error(
+        f"{exception_message} {exception_type} {filename}, Line {exception_traceback.tb_lineno}")
     raise e
-

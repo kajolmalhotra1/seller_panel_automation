@@ -1,0 +1,180 @@
+syntax = "proto3";
+package main;
+import "google/protobuf/empty.proto";
+
+message FlatFees{
+  int32 id = 1;
+  string fee_name = 2;
+  string description = 3;
+  string applicable_date = 4;
+  string value_type = 5;
+  string value = 6;
+}
+
+message TenantId{
+  string tenant_id = 1;
+}
+
+message DeleteFlatFeeRequest{
+  string tenant_id = 1;
+  int32 id = 2;
+}
+
+message FlatFeesRequest{
+  string   fee_name = 1;
+  string  description = 2;
+  string applicable_date = 3;
+  string value_type = 4;
+  string value = 5;
+  string created_by = 6;
+  string tenant_id = 7;
+}
+
+
+message FlatFeesResponse{
+  int32 status_code = 1;
+  string status = 2;
+  string message = 3;
+  repeated FlatFees data = 4;
+}
+
+message CalculationAttributesResponse{
+  int32 status_code = 1;
+  string status = 2;
+  string message = 3;
+  repeated AttributesValue data = 4;
+
+  message AttributesValue{
+    int32 id = 1;
+    string attribute_value = 2;
+  }
+}
+message ParameterValueResponse{
+  message ParameterValue {
+    int32 id = 1;
+    string value = 2;
+  }
+
+  message Data {
+    int32 id = 1;
+    string Parameter_name = 2;
+    string Parameter_type = 3;
+    repeated ParameterValue Parameter_value = 4;
+  }
+
+  string message = 1;
+  int32 status_code = 2;
+  string status = 3;
+  repeated Data data = 4;
+}
+
+message MarketPlaceData{
+  int32 id=1;
+  string calculation_attribute = 2;
+  string fee_name = 3;
+  string applicable_date = 4;
+  string description = 5;
+  repeated Parameter parameter_value = 6;
+
+  message Parameter{
+    int32 param_id = 1;
+    string param_value = 2;
+  }
+}
+
+
+
+
+message MarketPlaceFeeResponse{
+  string message = 1;
+  int32 status_code = 2;
+  string status = 3;
+  repeated MarketPlaceData data = 4;
+
+
+}
+
+
+
+message StatusResponse{
+  int32 status_code = 1;
+  string status = 2;
+  string message = 3;
+}
+
+
+message ColumnsResponse{
+  int32 status_code = 1;
+  string status = 2;
+  string message = 3;
+  repeated Columns data = 4;
+
+  message Columns{
+    int32 id = 1;
+    string Parameter_name = 2;
+  }
+
+}
+
+message MarketPlaceFeeRequest{
+  string tenant_id = 1;
+  int32 calculation_attribute = 2;
+  string fee_name = 3;
+  string applicable_date = 4;
+  string description = 5;
+  string created_by = 6;
+  repeated Parameter parameter_value = 7;
+
+  message Parameter{
+    int32 param_id = 1;
+    string param_value = 2;
+  }
+}
+
+message PromotionsRequest{
+  string tenant_id = 1;
+  string promotion_name = 2;
+  string start_date = 3;
+  string end_date = 4;
+  string value_type = 5;
+  int32 value = 6;
+  string created_by=7;
+}
+
+message PromotionsResponse{
+  int32 status_code = 1;
+  string status = 2;
+  string message = 3;
+  repeated Promotion data = 4;
+
+  message Promotion{
+    int32 id=1;
+    string promotion_name = 2;
+    string start_date = 3;
+    string end_date = 4;
+    string value_type = 5;
+    int32 value = 6;
+  }
+}
+
+message DeletePromotion{
+  string tenant_id = 1;
+  int32 id = 2;
+}
+
+
+
+service Payout{
+  rpc GetFlatFees(TenantId) returns (FlatFeesResponse){}
+  rpc CreateFlatFees(FlatFeesRequest) returns (StatusResponse){}
+  rpc GetCalculationAttributes(TenantId) returns(CalculationAttributesResponse){}
+  rpc GetParameterValue(TenantId) returns (ParameterValueResponse){}
+  rpc DeleteFlatFees(DeleteFlatFeeRequest) returns(StatusResponse){}
+  rpc GetMarketPlaceFees(TenantId) returns (MarketPlaceFeeResponse){}
+  rpc GetColumnsForMarketPlaceFees(TenantId) returns (ColumnsResponse){}
+  rpc CreateMarketPlaceFees(MarketPlaceFeeRequest) returns (StatusResponse){}
+  rpc DeleteMarketPlaceFees(DeleteFlatFeeRequest) returns(StatusResponse){}
+  rpc CreatePromotions(PromotionsRequest) returns (StatusResponse){}
+  rpc GetPromotions(TenantId) returns (PromotionsResponse){}
+  rpc DeletePromotions(DeletePromotion) returns (StatusResponse){}
+}
